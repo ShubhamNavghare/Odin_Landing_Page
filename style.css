@@ -42,6 +42,7 @@ header>span>img {
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
+    padding: 10px 50px 10px 0px;
 }
 
 h1 {
@@ -69,4 +70,37 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center
+}
+
+.random-info{
+    background-color: #fff;
+    padding: 50px;
+}
+
+.random-info h2{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.random-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.rand{
+    flex-basis: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.rand-box{
+    border: 5px solid #3882f6;
+    width: 140px;
+    height: 140px;
+    border-radius: 15px;
 }
